@@ -142,6 +142,9 @@ export default function Register() {
         >
           {message?.message}
         </div>
+        <a href="/login" className="hover:text-[#211d93]">
+          Already have an account?
+        </a>
       </div>
     </div>
   );

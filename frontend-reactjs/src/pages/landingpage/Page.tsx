@@ -10,8 +10,14 @@ export default function Page() {
         <Navigation />
       </div>
       <div>
-        <Firstpart />
-        <Secondpart />
+        {/* bg-yellow-700 and bg-yellow-50 */}
+        <div id="explore">
+          <Firstpart />
+        </div>
+        {/* bg-red-700 and bg-red-50 */}
+        <div id="howtouse">
+          <Secondpart />
+        </div>
       </div>
     </div>
   );

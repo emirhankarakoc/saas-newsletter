@@ -1,4 +1,5 @@
 import { Button } from "@nextui-org/button";
+import { Link } from "@nextui-org/react";
 import React from "react";
 
 export const Firstpart = () => {
@@ -9,14 +10,17 @@ export const Firstpart = () => {
           <p className="text-5xl font-bold font-sfpro text-yellow-700 ">
             THE EASY WAY TO START CREATING A NEWSLETTER
           </p>
-          <Button
-            className="bg-yellow-700 mt-10"
-            color="danger"
-            variant="shadow"
-            fullWidth
-          >
-            Explore
-          </Button>
+
+          <a href="#howtouse">
+            <Button
+              className="bg-yellow-700 mt-10"
+              color="danger"
+              variant="shadow"
+              fullWidth
+            >
+              Explore
+            </Button>
+          </a>
         </div>
       </div>
       <div className="col-span-1 grid place-items-center">
